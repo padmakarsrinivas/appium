@@ -12,7 +12,7 @@ import java.net.URL;
 /**
  * Android Browser Sauce Labs Test.
  */
-public class AndroidBrowserSaucelabsTest extends BaseTest{
+public class AndroidBrowserSaucelabsTest{
     public static final String USERNAME = "YOUR_USERNAME";
     public static final String ACCESS_KEY = "YOUR_ACESS_KEY";
     public static final String URL = "https://"+USERNAME+":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
